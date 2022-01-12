@@ -1,0 +1,8 @@
+@media screen and (min-width: 530px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    main section:last-child {
+        grid-column: 1 / 2;
+    }
+}
