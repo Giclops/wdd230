@@ -38,6 +38,7 @@ main {
     transition: 0.3s;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    text-align: justify;
     /* max-width: 445px;
     justify-items: center; */
 }
@@ -58,8 +59,10 @@ main {
     justify-items: center;
 }
 .card img {
-    display: block;
+    display: flex;
     width: 100%;
+    max-width: 400px;
+    margin: auto;
 }
 .card p, .card a {
     font-size: 1.1em;
