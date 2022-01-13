@@ -3,6 +3,6 @@
         grid-template-columns: 1fr 1fr;
     }
     main section:last-child {
-        grid-column: 1 / 2;
+        grid-column: 1 / 3;
     }
 }

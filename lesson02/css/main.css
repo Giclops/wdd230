@@ -10,8 +10,12 @@ body {
 h1, h2, h3 {
     margin: 0;
 }
+h1 {
+    font-size: 2.6em;
+}
 h2 {
-    font-size: large;
+    font-size: 1.2em;
+    font-weight: lighter;
 }
 
 header {
@@ -34,8 +38,8 @@ main {
     transition: 0.3s;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    max-width: 445px;
-    justify-items: center;
+    /* max-width: 445px;
+    justify-items: center; */
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -47,11 +51,16 @@ main {
 .card h3 {
     background-color: darkgreen;
     color: white;
+    font-size:x-large;
     padding: 4px 6px 4px 6px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     justify-items: center;
 }
 .card img {
-
+    display: block;
+    width: 100%;
+}
+.card p, .card a {
+    font-size: 1.1em;
 }
