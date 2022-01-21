@@ -1,0 +1,27 @@
+:root {
+    --primary: #5c70bdff;
+    --secondary: #a99a86;
+    --tertiary: #8fbc8f;
+    --text: #555d50;
+    --other: #cd5c5c;
+}
+
+.colors ul li:nth-child(1) {
+    color: var(--primary)
+}
+
+.colors ul li:nth-child(2) {
+    color: var(--secondary);
+}
+
+.colors ul li:nth-child(3) {
+    color: var(--tertiary);
+}
+
+.colors ul li:nth-child(4) {
+    color: var(--text);
+}
+
+.colors ul li:nth-child(5) {
+    color: var(--other);
+}

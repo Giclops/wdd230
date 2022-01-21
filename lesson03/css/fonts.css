@@ -1,0 +1,12 @@
+.font ul li:nth-child(1) {
+    font-family: 'Fire Sans';
+}
+.font ul li:nth-child(2) {
+    font-family: Arial;
+}
+.font ul li:nth-child(3) {
+    font-family: Helvetica;
+}
+.font ul li:nth-child(4) {
+    font-family: sans-serif;
+}
