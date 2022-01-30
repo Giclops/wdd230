@@ -1,0 +1,146 @@
+:root {
+    --primary: rgb(126, 144, 218);
+    --secondary: #ccb08c;
+    --tertiary: #8fbc8f;
+    --text: #000000;
+    --red: #cd5c5c;
+
+    --header: var(--primary);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--text);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+    color: var(--text);
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    background-color: var(--header);
+}
+
+.logo {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+}
+.logo a img {
+    width: 120px;
+    height: 120px;
+}
+.title {
+    font-size: 0.8rem;
+}
+.socials {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+.socials img {
+    width: 30px;
+}
+nav {
+    flex: 0 0 auto;
+    margin: 0;
+}
+.nav {
+    padding: 0;
+}
+.nav li:first-child {
+    display: block;
+    font-size: 1.15rem;
+}
+.nav li:first-child a::before {
+    content: "☰ ";
+}
+.nav li {
+    display: none;
+}
+.nav li a {
+    display:block;
+    padding: 0.25rem 0.5rem 0.25rem 0;
+    text-align: right;
+}
+/* .menu {
+    font-size: xx-large;
+} */
+.responsive li {
+    display:block;
+    background-color: var(--secondary);
+}
+.responsive li:first-child a::before {
+    content: "❌ ";
+}
+.responsive li:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+
+
+main {
+    flex: 1 1 auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+article {
+    border: 1px solid rgb(117,117,117);
+    background-color: lightgray;
+    padding: 8px;
+    margin-top: 10px;
+    height: max-content;
+    min-height: 150px;
+}
+section {
+    border: 1px solid rgb(117, 117, 117);
+    padding: 1rem 0 10rem 1rem;
+}
+.eventWeather {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    justify-self: flex-end;
+    padding-bottom: 10px;
+    background-color: var(--header);
+}
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+hr {
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+.hidden {
+    display: none;
+}
