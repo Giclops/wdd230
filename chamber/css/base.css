@@ -25,10 +25,15 @@ body {
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 280px 1fr;
     align-items: center;
     flex: 0 0 auto;
     background-color: var(--header);
+}
+.links {
+    justify-self: right;
+    display: flex;
 }
 
 .logo {
@@ -75,6 +80,14 @@ nav {
 /* .menu {
     font-size: xx-large;
 } */
+
+.responsive ul {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 80%;
+    text-align: right;
+}
 .responsive li {
     display:block;
     background-color: var(--secondary);
@@ -98,14 +111,13 @@ main {
 article {
     border: 1px solid rgb(117,117,117);
     background-color: lightgray;
-    padding: 8px;
     margin-top: 10px;
-    height: max-content;
+    padding: 8px;
     min-height: 150px;
 }
 section {
     border: 1px solid rgb(117, 117, 117);
-    padding: 1rem 0 10rem 1rem;
+    min-height: 120px;
 }
 .eventWeather {
     display: flex;

@@ -1,5 +1,5 @@
 const menubutton = document.querySelector('.menu');
-const mainnav = document.querySelector('.nav');
+const mainnav = document.querySelector('nav');
 
 menubutton.addEventListener('click', () => {
     mainnav.classList.toggle('responsive')
