@@ -3,8 +3,9 @@
         font-size: 1rem;
     }
     header {
-        grid-template-columns: 304px 1fr;
+        grid-template-columns: 330px 1fr;
     }
+    
     .spotlights {
         display: flex;
         order: 0;

@@ -5,6 +5,10 @@
         flex: 2 1 auto;
         
     }
+    nav {
+        margin-left: auto;
+        font-size: 1.15rem;
+    }
     .logo {
         flex: 1 1 auto;
     }
@@ -21,6 +25,7 @@
     }
     .socials {
         order: 2;
+        margin-left: auto;
     }
     
     main {

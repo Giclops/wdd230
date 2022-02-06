@@ -1,7 +1,7 @@
 :root {
     --primary: rgb(126, 144, 218);
     --secondary: #ccb08c;
-    --tertiary: #8fbc8f;
+    --tertiary: #99c599;
     --text: #000000;
     --red: #cd5c5c;
 
@@ -16,12 +16,21 @@
     color: var(--text);
 }
 
+.banner {
+    text-align: center;
+    padding: 5px;
+    background-color: var(--tertiary);
+    display: none;
+}
+.bannerShow {
+    display: block;
+}
+
 body {
     display: flex;
     flex-direction: column;
     font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
     color: var(--text);
-
 }
 
 header {
@@ -34,6 +43,8 @@ header {
 .links {
     justify-self: right;
     display: flex;
+    width: 100%;
+    justify-content: right;
 }
 
 .logo {
@@ -110,7 +121,7 @@ main {
 }
 article {
     border: 1px solid rgb(117,117,117);
-    background-color: lightgray;
+    background-color: var(--tertiary);
     margin-top: 10px;
     padding: 8px;
     min-height: 150px;
