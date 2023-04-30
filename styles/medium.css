@@ -1,0 +1,9 @@
+only screen and (min-width: 32.5em) {
+    h1 {
+        color: red;
+        font-size: 1.1em;
+    }
+    h2 {
+        color: red;
+    }
+}
